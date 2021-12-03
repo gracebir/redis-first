@@ -1,0 +1,20 @@
+{
+  "name": "redis-first",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gracebir/redis-first",
+  "author": "gracebir <grace.devolop@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "node-fetch": "^3.1.0",
+    "redis": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
